@@ -395,9 +395,17 @@ hr{
     font-size:17px;
     box-shadow:0 5px 15px rgba(0,0,0,0.08);
 }
-@media(max-width:992px){
-    .education-card ul{
-        grid-template-columns:1fr;
+/* Tablet */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
     }
 }
 
